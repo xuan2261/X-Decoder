@@ -47,7 +47,7 @@ def main(args=None):
 
     # META DATA
     pretrained_pth = os.path.join(opt['RESUME_FROM'])
-    output_root = './output'
+    output_root = '/kaggle/working/'
     image_pth = 'inference/images/fruit.jpg'
 
     text = [['The larger watermelon.'], ['The front white flower.'], ['White tea pot.'], ['Flower bunch.'], ['white vase.'], ['The left peach.'], ['The brown knife.']]
